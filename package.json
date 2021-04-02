@@ -1,0 +1,28 @@
+{
+  "name": "webhw3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvesche20/WebHw3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvesche20/WebHw3/issues"
+  },
+  "homepage": "https://github.com/jvesche20/WebHw3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
