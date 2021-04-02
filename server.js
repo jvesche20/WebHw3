@@ -1,4 +1,4 @@
-const Express = require('express');
+const express = require('express');
 const BodyParser = require('body-parser');
 
 const CatchError = require('./middleware/catchError');
@@ -6,7 +6,7 @@ const DateValidation = require('./middleware/dateValidation');
 const DeleteStatus = require('./middleware/deleteStatus');
 const Logger = require('./middleware/logger');
 
-const app = Express();
+const app = express();
 
 app.use(BodyParser.json());
 app.use(DeleteStatus);
