@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/jvesche20/WebHw3#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bob-mongoose-currency": "^0.2.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "http-status-codes": "^2.1.4"
   },
   "devDependencies": {
     "eslint": "^7.23.0",
