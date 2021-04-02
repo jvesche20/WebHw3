@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
 const Winston = require('winston');
 
 const winstonLogger = Winston.createLogger({
